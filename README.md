@@ -8,11 +8,8 @@
 
 -   [[Testing]{.underline}](#testing)
 
--   [[Usage]{.underline}](#usage)
+-   [[Github Repo]{.underline}](#Github)
 
--   [[Contributing]{.underline}](#contributing)
-
--   [[License]{.underline}](#license)
 
 **Requirements**
 
@@ -29,19 +26,17 @@
 1.  **Clone the Repository:**
 
 > git clone https://github.com/Vengatesh-m/qa-test.git
->
-> cd repo-name
+
 
 2.  **Create a Virtual Environment (optional):**
 
 > python -m venv myenv
 >
-> source myenv/bin/activate \# On Windows use
+> source myenv/bin/activate 
 > \`myenv\\Scripts\\activate\`
 
 3.  **Install Dependencies:**
 
-> pip install -r requirements.txt
 
 **Deployment**
 
