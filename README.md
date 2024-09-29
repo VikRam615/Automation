@@ -1,25 +1,82 @@
-# qa-test
+**Table of Contents**
 
-**Kubernetes Deployment:**
+-   [[Requirements]{.underline}](#requirements)
 
-Deploy the services to a local Kubernetes cluster (e.g., Minikube or Kind).
+-   [[Setup]{.underline}](#setup)
 
-**Verification:**
+-   [[Deployment]{.underline}](#deployment)
 
-- Ensure the frontend service can successfully communicate with the backend service.
-- Verify that accessing the frontend URL displays the greeting message fetched from the backend.
+-   [[Testing]{.underline}](#testing)
 
-**Automated Testing:**
+-   [[Usage]{.underline}](#usage)
 
-- Write a simple test script (using a tool of your choice) to verify the integration between the frontend and backend services.
-- The test should check that the frontend correctly displays the message returned by the backend.
+-   [[Contributing]{.underline}](#contributing)
 
-**Documentation:**
+-   [[License]{.underline}](#license)
 
-- Provide a README file with instructions on how to set up and run the automated tests script.
+**Requirements**
 
-**Deliverables:**
-- Test script for automated testing.
-- README file with setup and execution instructions.
+-   Docker
 
-**Github repo should be Public**
+-   Minikube
+
+-   Python 3 and above
+
+-   Nosetest configured
+
+-   pytest for running tests
+
+**Setup**
+
+1.  **Clone the Repository:**
+
+> git clone https://github.com/yourusername/repo-name.git
+>
+> cd repo-name
+
+2.  **Create a Virtual Environment (optional):**
+
+> python -m venv myenv
+>
+> source myenv/bin/activate \# On Windows use
+> \`myenv\\Scripts\\activate\`
+
+3.  **Install Dependencies:**
+
+> pip install -r requirements.txt
+
+**Deployment**
+
+1.  **Start Minikube:**
+
+> minikube start \--driver=docker
+
+2.  **Deploy Backend:**
+
+> kubectl apply -f backend-deployment.yaml
+
+3.  **Deploy Frontend:**
+
+> kubectl apply -f frontend-deployment.yaml
+
+4.  **Access Frontend Service:** To access the frontend service, run:
+
+> minikube service frontend-service \--url
+
+**Testing**
+
+To run the automated tests, execute the following command:
+
+python test_script.py
+
+**Test Scenarios**
+
+-   Basic connectivity tests between frontend and backend
+
+-   Invalid backend URL handling
+
+-   Empty response handling
+
+-   Data validation and edge cases
+
+**Github Repo -** **https://github.com/VikRam615/Automation.git**
