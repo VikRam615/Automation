@@ -30,7 +30,7 @@
 
 1.  **Clone the Repository:**
 
-> git clone https://github.com/yourusername/repo-name.git
+> git clone https://github.com/Vengatesh-m/qa-test.git
 >
 > cd repo-name
 
