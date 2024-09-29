@@ -1,0 +1,15 @@
+Log Analysis Report
+===================
+
+Number of 404 Errors: 3
+Most Requested Pages:
+      4 /index.html
+      2 /about.html
+      2 /404.html
+      1 /nonexistent.html
+      1 /contact.html
+
+IP Addresses with Most Requests:
+      5 127.0.0.1
+      3 192.168.1.2
+      2 192.168.1.1
