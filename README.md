@@ -22,9 +22,7 @@
 
 -   Python 3 and above
 
--   Nosetest configured
-
--   pytest for running tests
+-   Nosetest for running tests
 
 **Setup**
 
